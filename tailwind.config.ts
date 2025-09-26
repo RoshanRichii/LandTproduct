@@ -47,6 +47,11 @@ export default {
           DEFAULT: "hsl(var(--card))",
           foreground: "hsl(var(--card-foreground))",
         },
+        oneplus: {
+          red: "hsl(var(--oneplus-red))",
+          "red-dark": "hsl(var(--oneplus-red-dark))",
+          orange: "hsl(var(--oneplus-orange))",
+        },
         sidebar: {
           DEFAULT: "hsl(var(--sidebar-background))",
           foreground: "hsl(var(--sidebar-foreground))",
@@ -62,6 +67,24 @@ export default {
         lg: "var(--radius)",
         md: "calc(var(--radius) - 2px)",
         sm: "calc(var(--radius) - 4px)",
+      },
+      fontFamily: {
+        heading: "var(--font-heading)",
+        body: "var(--font-body)",
+      },
+      backgroundImage: {
+        "hero-gradient": "var(--gradient-hero)",
+        "card-gradient": "var(--gradient-card)",
+        "accent-gradient": "var(--gradient-accent)",
+      },
+      boxShadow: {
+        glow: "var(--shadow-glow)",
+        card: "var(--shadow-card)",
+        feature: "var(--shadow-feature)",
+      },
+      transitionTimingFunction: {
+        smooth: "var(--transition-smooth)",
+        spring: "var(--transition-spring)",
       },
       keyframes: {
         "accordion-down": {
